@@ -1,14 +1,18 @@
 ﻿using System;
+using CayuseWebAPI.Controllers;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace CayuseWebAPI.Tests
 {
     [TestClass]
-    public class UnitTest1
+    public class CayuseUnitTest
     {
         [TestMethod]
-        public void TestMethod1()
+        public void GetDetailsByZipCode_ZipCodeNotFound()
         {
+
         }
+
+
     }
 }
