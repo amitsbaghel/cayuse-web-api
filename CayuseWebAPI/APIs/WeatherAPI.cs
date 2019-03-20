@@ -12,7 +12,7 @@ namespace CayuseWebAPI.Shared.RESTAPIs
     public class WeatherAPI : IWeatherAPI
     {
         private const string restClientStr = "http://api.openweathermap.org/data/2.5";
-        private const string API = "41310a0d143eefd1f653c9fb9c7bc64b";
+        private const string API = "<YOUR_API_KEY>";
         private IErrorLogger _errorLogger;
         private IRestClientFactory _restClientFactory;
         private IRestRequestFactory _restRequestFactory;
