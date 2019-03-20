@@ -14,7 +14,7 @@ namespace CayuseWebAPI.Shared.RESTAPIs
     public class GooglePlacesAPI : IGooglePlacesAPI
     {
         private const string restClientStr = "https://maps.googleapis.com/maps/api";
-        private const string API = "AIzaSyCSU6me6KDf0Xd74ZpR1qxIrilOm8fJXxA";
+        private const string API = "<YOUR_API_KEY>";
         private IErrorLogger _errorLogger;
         private IRestClientFactory _restClientFactory;
         private IRestRequestFactory _restRequestFactory;
